@@ -1,6 +1,7 @@
 # Questions and answers
 
 - What part of building the project was the most difficult? Why?
+
     The difficult part was to figure out how to get the data from the api as it was not straight forward
 
 - Set up environment - 10 min
