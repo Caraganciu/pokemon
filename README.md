@@ -1,3 +1,22 @@
+# Questions and answers
+
+- What part of building the project was the most difficult? Why?
+    The difficult part was to figure out how to get the data from the api as it was not straight forward
+
+- Set up environment - 10 min
+- Search feature - 10 min
+- Filter feature - 10 min
+- Result display - 10 min
+- Setting up api requests and integrating them in the components - 40 min
+- Other (please specify)
+    - I used local storage because it persist even after page refresh so that we don't have a situation where
+    user refreshes the page clicks back button and nothing happens. Redux for example would not work well here.
+
+# How to start the project
+    npm install
+    npm run dev
+
+
 # Nuant FE Test
 
 This project uses vite react-ts template which provides a minimal setup to get React working in Vite with ESLint rules.
@@ -24,9 +43,6 @@ Approach to Task: Treat this technical test as you would a real-world project. B
 Commit Log: Provide a detailed commit log that outlines your thought process, decisions, and implementation steps throughout the project. This allows reviewers to understand how you approached the task, the challenges you encountered, and how you resolved them. It also demonstrates your ability to work collaboratively and communicate effectively within a team setting.
 Long-Term Perspective: Consider this task as part of a larger project with potential for future iterations and enhancements. Your implementation should be flexible, scalable, and well-structured to accommodate additional functionalities or changes down the line. Think about how your codebase can be easily maintained and extended by other developers in the future.
 Overall, approach the task with professionalism, attention to detail, and a focus on delivering a high-quality solution that meets the project requirements and demonstrates your technical skills and expertise.
-
-
-
 
  ### Submitting
 

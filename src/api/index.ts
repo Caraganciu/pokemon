@@ -24,7 +24,7 @@ export type DetailedPokemon = Omit<Pokemon, "types"> & {
   types: string[]
 }
 
-export async function listPokemons(): Promise<DetailedPokemon[]> {
+export async function getPokemons(): Promise<DetailedPokemon[]> {
   const data = await P.listPokemons();
   const promises = []
   for (const pokemon of data.results){

@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { DetailedPokemon, getTypes, listPokemons } from '../../api';
+import { DetailedPokemon, getTypes, getPokemons } from '../../api';
 import './styles.css';
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
   const [results, setResults] = useState<DetailedPokemon[]>([]);
 
   useEffect(()=>{
-    listPokemons().then((data)=>setResults(data));
+    getPokemons().then((data)=>setResults(data));
     getTypes().then((types)=> setTypes(types));
   }, [])
 
