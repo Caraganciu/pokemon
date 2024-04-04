@@ -10,8 +10,8 @@
 - Result display - 10 min
 - Setting up api requests and integrating them in the components - 40 min
 - Other (please specify)
-    - I used local storage because it persist even after page refresh so that we don't have a situation where
-    user refreshes the page clicks back button and nothing happens. Redux for example would not work well here.
+    - I used local storage because it persists even after page refresh, so that we don't have a situation where
+    user refreshes the page, clicks back button and nothing happens. Redux for example would not work well here.
 
 # How to start the project
     npm install
